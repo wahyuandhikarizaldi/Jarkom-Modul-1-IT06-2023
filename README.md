@@ -44,8 +44,7 @@ Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggema
 ### Cara Pengerjaan
 Cek packet yang ke 7812, source address nya adalah 104.18.14.101.
 
-(ss packet)
-
+![6packet](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/2f02bf97-21da-4908-8b76-2753bd9d0aff)
 
 Sesuai dengan hint yang diberikan, substitusikan dengan a1z26 cipher, rentang huruf A-R, 1-18, dan berjumlah 6 huruf. Maka source address nya akan menjadi:
 
@@ -53,7 +52,8 @@ Sesuai dengan hint yang diberikan, substitusikan dengan a1z26 cipher, rentang hu
 
 Inputkan jawabannya ke terminal, lalu didapatkan flag.
 
-(ss terminal)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/8b7d39b0-ddc3-4259-bcaf-f7a282fb6fac)
+
 
 ```bash
 Here is your flag: Jarkom2023{h3h3_ctf_d1k1t_a0T35XQ1309B7YI4HEkx}
@@ -71,11 +71,12 @@ Filter packet yang menuju IP 184.87.193.88 dengan mengunakan kueri:
 ip.addr == 184.87.193.88
 ``` 
 
-(ss packet)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/75d5da7f-ec80-4ad1-ac34-c62beb9e24a4)
 
 Terdapat 6 packet yang menuju IP 184.87.193.88. Input jawaban ke server, lalu didapatkan flag.
 
-(ss terminal)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/ea02a328-9488-4001-810b-f0b52aff9242)
+
 ```bash
 Here is your flag: Jarkom2023{4uKBiU1L6RF966HkFj_4n0th3r_f1lt3ring}
 ```
@@ -92,10 +93,10 @@ tcp.dstport == 80 || udp.dstport == 80
 
 Kueri ini untuk memfilter packet yang destination port nya 80, baik melalui protokol TCP atau UDP.
 
-
 Inputkan kuerinya sebagai jawaban ke server, lalu didapatkan flag.
 
-(ss terminal)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/cd815e70-37ad-4f19-bd0d-04aca898c233)
+
 
 ```bash
 Here is your flag: Jarkom2023{qu3ryyyyying_661602_EkAuEtBiNzQ_15_fun}
@@ -115,7 +116,7 @@ Kueri ini untuk memfilter packet yang berasal dari ip 10.51.40.1, dan tidak menu
 
 Inputkan kuerinya sebagai jawaban ke server, lalu didapatkan flag.
 
-(ss terminal)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/757a990a-b40c-41aa-813a-5c84a48196a1)
 
 ```bash
 Here is your flag: Jarkom2023{y3s_its_SjOkQjRmQmS_qu3ry1ng}
@@ -129,11 +130,13 @@ Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet.
 Analisis pcap nya di wireshark, cari kredensial yang benar.
 Filter pcap nya dengan ``telnet``
 
-(ss packet)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/3d669417-0bf9-4cd6-ab9e-efd543577cc6)
+
 
 Didapatkan beberapa packet yang mengandung kredensial. Inputkan satu persatu ke server sebagai jawaban, lalu didapatkan kredensial yang benar yaitu ``dhafin:kesayangannyak0k0``.
 
-(ss terminal)
+![image](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/113814423/d4d0f7d4-c329-4507-b2bb-f27b3153e388)
+
 
 ```bash
 Here is your flag: Jarkom2023{t3lnet_is_BA57yyBz7A7xB35Cx_N0tSecu2e}
