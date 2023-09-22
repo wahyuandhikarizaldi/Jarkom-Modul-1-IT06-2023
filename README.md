@@ -14,13 +14,13 @@ d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari
 ### Cara Pengerjaan
 Melakukan pencarian dan pengecekan terhadap aktifitas yang dilakukan satu persatu hingga mendapatkan yang sesuai pada aktifitas mengunggah file c75-GrabThePhisher.zip. Pada proses request untuk menjawab poin A & B, dan response untuk poin C & D
 
-[![Screenshot-96.png](https://i.postimg.cc/pLdDt7LN/Screenshot-96.png)](https://postimg.cc/rKvd1f4g)
+![Screenshot (96)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/36a453a1-4cc0-4055-b789-935730618207)
 
-[![Screenshot-97.png](https://i.postimg.cc/2ydzjhDq/Screenshot-97.png)](https://postimg.cc/4HdCBKnZ)
+![Screenshot (97)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/14185042-9060-4ed8-a2b0-5ab700be8bf6)
 
 sehingga didapatkan flag
 
-![Flag 1](https://drive.google.com/uc?export=view&id=1ymGe48CA90nRzaT5JnkIYXD7OZfrk9f7)
+<img width="701" alt="Screenshot 2023-09-18 210914" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/56930df4-4960-4ba2-b8af-4efc2c1d4674">
 
 ## No. 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
@@ -29,7 +29,7 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 Filter packet HTTP lalu klik kanan pada salah satu packet HTTP kemudian pilih follow >> HTTP Stream
 
-![Screenshot-90.png](https://drive.google.com/uc?export=view&id=1kKgnZNjXWbvR2RwBjeRpTgaVpJ-XxfPZ)
+![Screenshot (90)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/ca0165ca-f097-4dff-85df-23d2ed6a9aaa)
 
 Kemudian akan tampil sebagai berikut dan terlihat server yang digunakan adalah gunicorn
 
@@ -50,15 +50,15 @@ b. Protokol layer transport apa yang digunakan?
 
 Filter packet dengan mengetikkan ip.addr == 239.255.255.250 && udp.port == 3702 sehingga didapatkan capture paket sesuai dengan permintaan soal kemudian dihitung dan didapatkan 21 paket
 
-![Screenshot-92.png](https://drive.google.com/uc?export=view&id=1Kx-2vuPWbAPzC_KmE5f3mCXM1RmOWNTu)
+![Screenshot (92)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/817d7c14-76d7-4d36-8241-34abb26f4cc8)
 
 Lalu cari informasi protocol dan didapat UDP
 
-![Screenshot-93.png](https://drive.google.com/uc?export=view&id=1QyJPo7UrJSeHtu_5vT2YbUqhWkoE9jIw)
+![Screenshot (93)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/f1884bd2-89e8-475e-afbe-6540234a7330)
 
 Sehingga didapat flag sebagai berikut:
 
-![Flag 3](https://drive.google.com/uc?export=view&id=1GqeDv2Q_PGMjVsVl4on1ZQNN4x4mewaW)
+<img width="868" alt="Screenshot 2023-09-18 201710" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/6a44470b-ed43-4eac-941c-c3fa68f8a268">
 
 ## No. 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
@@ -67,11 +67,11 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 Buka paketnya lalu cari paket di nomor 130 kemudian cari informasi dibagian frame bawah pada User diagram protocol dan didapat Checksum:0x18e5
 
-![Screenshot-94.png](https://drive.google.com/uc?export=view&id=1dKipK_0YMkHSVtgXd8v-qztqA8_Q7umo)
+![Screenshot (94)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/857186ff-1ee8-4d07-a63f-9ca734560e4b)
 
 sehingga didapatkan flag nya 
 
-![Flag 4](https://drive.google.com/uc?export=view&id=1qZfHoPuB8NMp2xImtC3WEnsvEXk3-lAO)
+<img width="482" alt="Screenshot 2023-09-18 202717" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/eada7b75-54cf-4d5d-964b-ba736b8601c6">
 
 ## No. 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
@@ -86,15 +86,15 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 
 Pertama-tama membuka follow >> tcp stream lalu didapatkan encoding password untuk membuka file.zip
 
-![Screenshot-98.png](https://drive.google.com/uc?export=view&id=1TgAlOkbkChJHWOp_3IiE3Kovlh49joze)
+![Screenshot (98)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/9f4148f2-f3e3-4252-9824-806bddd13427)
 
 Kemudian mendecode password yang telah didapat menggunakan base64
 
-![Screenshot-decode.png](https://drive.google.com/uc?export=view&id=1pJtKg89i4IK3Kb2db6Xof4DsLeDsj-iY)
+<img width="531" alt="Screenshot 2023-09-18 214559" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/65992a70-7e59-485d-9efe-df3a21fd1970">
 
 sehingga didapatkan nc untuk membuka soal dan mendapatkan flag
 
-![Flag 5.png](https://drive.google.com/uc?export=view&id=1O6pjf3NOqHndEwSyMIp-2cXYuVKVOx_y)
+<img width="560" alt="Screenshot 2023-09-18 215040" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/aa94b4f1-2d5b-4819-bd65-4144b32630ad">
 
 ## No. 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
