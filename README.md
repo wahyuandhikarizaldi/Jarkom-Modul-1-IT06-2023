@@ -29,15 +29,15 @@ Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
 
 Filter packet HTTP lalu klik kanan pada salah satu packet HTTP kemudian pilih follow >> HTTP Stream
 
-[![Screenshot-90.png](https://i.postimg.cc/027qqwLx/Screenshot-90.png)](https://postimg.cc/xcjZvcfF)
+![Screenshot-90.png](https://drive.google.com/uc?export=view&id=1kKgnZNjXWbvR2RwBjeRpTgaVpJ-XxfPZ)
 
 Kemudian akan tampil sebagai berikut dan terlihat server yang digunakan adalah gunicorn
 
-[![Screenshot-91.png](https://i.postimg.cc/LsF5pP4M/Screenshot-91.png)](https://postimg.cc/PCKTbP86)
+![Screenshot-91.png](https://drive.google.com/uc?export=view&id=1cjgufQ47xqQXoAI8j8K7Ii8SRXMFbUnt)
 
 Sehingga didapatkan flag berikut :
 
-[![image.png][url=https://ibb.co/Z8L78X7][img]https://i.ibb.co/0MDvM2v/image.png[/img][/url]
+![Flag 2](https://drive.google.com/uc?export=view&id=1toe23vkUpb10jtMmLg1qY8s_ChYcvbc0)
 
 ## No. 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
@@ -50,15 +50,15 @@ b. Protokol layer transport apa yang digunakan?
 
 Filter packet dengan mengetikkan ip.addr == 239.255.255.250 && udp.port == 3702 sehingga didapatkan capture paket sesuai dengan permintaan soal kemudian dihitung dan didapatkan 21 paket
 
-[![Screenshot-92.png](https://i.postimg.cc/hv1XGbsm/Screenshot-92.png)](https://postimg.cc/4HnfLcr4)
+![Screenshot-92.png](https://drive.google.com/uc?export=view&id=1Kx-2vuPWbAPzC_KmE5f3mCXM1RmOWNTu)
 
 Lalu cari informasi protocol dan didapat UDP
 
-[![Screenshot-93.png](https://i.postimg.cc/W4x8mTvn/Screenshot-93.png)](https://postimg.cc/CZHbSydB)
+![Screenshot-93.png](https://drive.google.com/uc?export=view&id=1QyJPo7UrJSeHtu_5vT2YbUqhWkoE9jIw)
 
 Sehingga didapat flag sebagai berikut:
 
-[![image.png](https://i.postimg.cc/fW13wyv5/image.png)](https://postimg.cc/Dmdf62Hb)
+![Flag 3](https://drive.google.com/uc?export=view&id=1GqeDv2Q_PGMjVsVl4on1ZQNN4x4mewaW)
 
 ## No. 4
 Berapa nilai checksum yang didapat dari header pada paket nomor 130?
@@ -67,11 +67,11 @@ Berapa nilai checksum yang didapat dari header pada paket nomor 130?
 
 Buka paketnya lalu cari paket di nomor 130 kemudian cari informasi dibagian frame bawah pada User diagram protocol dan didapat Checksum:0x18e5
 
-[![Screenshot-94.png](https://i.postimg.cc/43T89XQT/Screenshot-94.png)](https://postimg.cc/pmqYNbS0)
+![Screenshot-94.png](https://drive.google.com/uc?export=view&id=1dKipK_0YMkHSVtgXd8v-qztqA8_Q7umo)
 
 sehingga didapatkan flag nya 
 
-
+![Flag 4](https://drive.google.com/uc?export=view&id=1qZfHoPuB8NMp2xImtC3WEnsvEXk3-lAO)
 
 ## No. 5
 Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
@@ -84,7 +84,17 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 
 ### Cara Pengerjaan
 
-[![Screenshot-98.png](https://i.postimg.cc/DZ6YMzXC/Screenshot-98.png)](https://postimg.cc/njskspT7)
+Pertama-tama membuka follow >> tcp stream lalu didapatkan encoding password untuk membuka file.zip
+
+![Screenshot-98.png](https://drive.google.com/uc?export=view&id=1TgAlOkbkChJHWOp_3IiE3Kovlh49joze)
+
+Kemudian mendecode password yang telah didapat menggunakan base64
+
+![Screenshot-decode.png](https://drive.google.com/uc?export=view&id=1pJtKg89i4IK3Kb2db6Xof4DsLeDsj-iY)
+
+sehingga didapatkan nc untuk membuka soal dan mendapatkan flag
+
+![Screenshot-decode.png](https://drive.google.com/uc?export=view&id=1O6pjf3NOqHndEwSyMIp-2cXYuVKVOx_y)
 
 ## No. 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
