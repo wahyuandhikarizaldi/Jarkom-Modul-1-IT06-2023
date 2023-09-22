@@ -33,11 +33,11 @@ Filter packet HTTP lalu klik kanan pada salah satu packet HTTP kemudian pilih fo
 
 Kemudian akan tampil sebagai berikut dan terlihat server yang digunakan adalah gunicorn
 
-![Screenshot-91.png](https://drive.google.com/uc?export=view&id=1cjgufQ47xqQXoAI8j8K7Ii8SRXMFbUnt)
+![Screenshot (91)](https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/61e5f8a2-7d9f-473f-ab12-dd3c495c9fe1)
 
 Sehingga didapatkan flag berikut :
 
-![Flag 2](https://drive.google.com/uc?export=view&id=1toe23vkUpb10jtMmLg1qY8s_ChYcvbc0)
+<img width="530" alt="Screenshot 2023-09-18 195831" src="https://github.com/wahyuandhikarizaldi/Jarkom-Modul-1-IT06-2023/assets/99130485/2bcdcb61-0506-4a22-b84d-e1d7804e320a">
 
 ## No. 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
