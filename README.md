@@ -94,7 +94,7 @@ Kemudian mendecode password yang telah didapat menggunakan base64
 
 sehingga didapatkan nc untuk membuka soal dan mendapatkan flag
 
-![Screenshot-decode.png](https://drive.google.com/uc?export=view&id=1O6pjf3NOqHndEwSyMIp-2cXYuVKVOx_y)
+![Flag 5.png](https://drive.google.com/uc?export=view&id=1O6pjf3NOqHndEwSyMIp-2cXYuVKVOx_y)
 
 ## No. 6
 Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
