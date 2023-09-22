@@ -20,7 +20,7 @@ Melakukan pencarian dan pengecekan terhadap aktifitas yang dilakukan satu persat
 
 sehingga didapatkan flag
 
-[![image.png](https://i.postimg.cc/dVp40k2t/image.png)](https://postimg.cc/gxyvS0tf)
+[url=https://ibb.co/Z8L78X7][img]https://i.ibb.co/0MDvM2v/image.png[/img][/url]
 
 ## No. 2
 Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
