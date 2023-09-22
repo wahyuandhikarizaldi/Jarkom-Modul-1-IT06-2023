@@ -37,7 +37,7 @@ Kemudian akan tampil sebagai berikut dan terlihat server yang digunakan adalah g
 
 Sehingga didapatkan flag berikut :
 
-[![image.png](https://i.postimg.cc/gJWQKzzp/image.png)](https://postimg.cc/WD55NPqY)
+[![image.png][url=https://ibb.co/Z8L78X7][img]https://i.ibb.co/0MDvM2v/image.png[/img][/url]
 
 ## No. 3
 Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
